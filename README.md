@@ -1,4 +1,8 @@
+
 # wait-loop
+[![NPM](https://nodei.co/npm/wait-loop.png)](https://nodei.co/npm/wait-loop/)
+[![Build Status](https://travis-ci.org/DawnImpulse/wait-loop.svg?branch=master)](https://travis-ci.org/DawnImpulse/wait-loop) [![GitHub issues](https://img.shields.io/github/issues/DawnImpulse/wait-loop.svg)](https://github.com/DawnImpulse/wait-loop/issues)
+[![npm version](https://badge.fury.io/js/wait-loop.svg)](https://badge.fury.io/js/wait-loop) ![npm](https://img.shields.io/npm/dt/wait-loop.svg)
 
 > **wait-loop** helps to synchronize each async loop call for an array . **wait-loop** works on 'deasync' nodejs event loop blocking mechanism.
 
