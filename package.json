@@ -4,7 +4,7 @@
   "description": "wait-loop helps to synchronize each async loop call for an array . wait-loop works on 'deasync' nodejs event loop blocking mechanism.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/DawnImpulse/wait-loop/issues"
   },
-  "homepage": "https://github.com/DawnImpulse/wait-loop#readme"
+  "homepage": "https://github.com/DawnImpulse/wait-loop#readme",
+  "dependencies": {
+    "deasync": "0.1.12"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.0.1"
+  }
 }
